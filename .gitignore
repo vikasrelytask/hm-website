@@ -3,11 +3,33 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Node
+node_modules/
+.next/
+dist/
+build/
+
+# Env
+.env
+.env.local
+
+# Logs
 pnpm-debug.log*
 
 # Next.js
+
+# OS
 .next/
 out/
+
+# Ignore large media directories (not tracked to keep repo small)
+public/projects/
+public/images/
+
+# Lockfiles (optional for your package manager)
+package-lock.json
+pnpm-lock.yaml
+
 build/
 dist/
 
